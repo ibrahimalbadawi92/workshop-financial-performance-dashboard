@@ -1,0 +1,396 @@
+year,account_code,account_name_en,account_name_ar,account_type,management_group,amount
+2017,4001,Workshop Revenue,ايرادات الورشة,Revenue,,582800.0
+2017,4002,Other Revenue,ايرادات متنوعة,Revenue,,37200.0
+2017,5101,Salaries & Wages,الأجور والرواتب,Expense,employee_costs,222544.24
+2017,5102,Housing Allowance,بدل السكن,Expense,employee_costs,30346.94
+2017,5103,Vacation Allowance,بدل الإجازة,Expense,employee_costs,18208.17
+2017,5104,Employee Medical Insurance,التأمين الطبي للموظفين,Expense,employee_costs,22254.42
+2017,5105,GOSI Contributions,الاشتراكات النظامية (التأمينات الاجتماعية),Expense,employee_costs,34393.2
+2017,5106,Labor Office Fees,رسوم مكتب العمل,Expense,employee_costs,12138.78
+2017,5107,Residency (Iqama) Fees,رسوم الإقامة,Expense,employee_costs,10115.65
+2017,5108,End-of-Service Provision,مخصص نهاية الخدمة,Expense,employee_costs,18208.17
+2017,5109,Staff Travel & Transport,سفر وانتقالات الموظفين,Expense,employee_costs,8901.77
+2017,5110,Overtime & Bonuses,المكافآت والعمل الإضافي,Expense,employee_costs,7283.27
+2017,5111,Staff Meals,وجبات الموظفين,Expense,employee_costs,4046.26
+2017,5201,Municipality Fees,رسوم البلدية,Expense,government_regulatory_fees,12338.71
+2017,5202,Commercial Registration Fees,رسوم السجل التجاري,Expense,government_regulatory_fees,8225.81
+2017,5301,Workshop Rent,إيجار الورشة,Expense,occupancy_facilities,46206.69
+2017,5302,Electricity,الكهرباء,Expense,occupancy_facilities,12795.7
+2017,5303,Water,المياه,Expense,occupancy_facilities,4976.11
+2017,5401,Equipment Maintenance,صيانة المعدات,Expense,maintenance_repairs,20564.52
+2017,5402,Vehicle Maintenance,صيانة المركبات,Expense,maintenance_repairs,14395.16
+2017,5403,Tools Maintenance,صيانة الأدوات,Expense,maintenance_repairs,6169.35
+2017,5501,Vehicle Insurance,تأمين المركبات,Expense,insurance,6032.26
+2017,5502,Property Insurance,تأمين الممتلكات,Expense,insurance,4021.51
+2017,5601,Bank Charges,رسوم بنكية,Expense,administrative_professional,4700.46
+2017,5602,Legal & Accounting Fees,أتعاب قانونية ومحاسبية,Expense,administrative_professional,11751.15
+2017,5603,Office Supplies,قرطاسية ومطبوعات,Expense,administrative_professional,5092.17
+2017,5604,Telephone & Internet,هاتف وإنترنت,Expense,administrative_professional,5875.58
+2017,5701,Advertising & Promotion,الدعاية والإعلان,Expense,marketing_advertising,10053.76
+2017,5801,Workshop Supplies,مستلزمات الورشة,Expense,operating_supplies,20107.53
+2017,5802,Safety Equipment,معدات السلامة,Expense,operating_supplies,6032.26
+2017,5803,Fuel & Lubricants,وقود وزيوت,Expense,operating_supplies,14075.27
+2017,5804,Packaging Materials,مواد تغليف,Expense,operating_supplies,5026.88
+2017,5805,Freight & Shipping,نقل وشحن,Expense,operating_supplies,5026.88
+2017,5901,Depreciation - Equipment,إهلاك المعدات,Expense,depreciation,10282.26
+2017,5902,Depreciation - Vehicles,إهلاك المركبات,Expense,depreciation,6169.35
+2017,5903,Depreciation - Furniture,إهلاك الأثاث,Expense,depreciation,4112.9
+2017,6001,Cost of Goods Sold,تكلفة البضاعة المباعة,Expense,cogs,31989.25
+2017,6101,Fines & Penalties,غرامات وجزاءات,Expense,fines_penalties,3198.92
+2017,6201,Zakat,الزكاة,Expense,zakat,5483.87
+2017,6301,Miscellaneous Expenses,مصروفات متنوعة,Expense,other_discounts,4112.9
+2017,6302,Discounts Allowed,خصومات مسموح بها,Expense,other_discounts,2741.94
+2018,4001,Workshop Revenue,ايرادات الورشة,Revenue,,648600.0
+2018,4002,Other Revenue,ايرادات متنوعة,Revenue,,41400.0
+2018,5101,Salaries & Wages,الأجور والرواتب,Expense,employee_costs,233998.73
+2018,5102,Housing Allowance,بدل السكن,Expense,employee_costs,31908.92
+2018,5103,Vacation Allowance,بدل الإجازة,Expense,employee_costs,19145.35
+2018,5104,Employee Medical Insurance,التأمين الطبي للموظفين,Expense,employee_costs,23399.87
+2018,5105,GOSI Contributions,الاشتراكات النظامية (التأمينات الاجتماعية),Expense,employee_costs,36163.44
+2018,5106,Labor Office Fees,رسوم مكتب العمل,Expense,employee_costs,12763.57
+2018,5107,Residency (Iqama) Fees,رسوم الإقامة,Expense,employee_costs,10636.31
+2018,5108,End-of-Service Provision,مخصص نهاية الخدمة,Expense,employee_costs,19145.35
+2018,5109,Staff Travel & Transport,سفر وانتقالات الموظفين,Expense,employee_costs,9359.95
+2018,5110,Overtime & Bonuses,المكافآت والعمل الإضافي,Expense,employee_costs,7658.14
+2018,5111,Staff Meals,وجبات الموظفين,Expense,employee_costs,4254.52
+2018,5201,Municipality Fees,رسوم البلدية,Expense,government_regulatory_fees,12973.79
+2018,5202,Commercial Registration Fees,رسوم السجل التجاري,Expense,government_regulatory_fees,8649.19
+2018,5301,Workshop Rent,إيجار الورشة,Expense,occupancy_facilities,43726.48
+2018,5302,Electricity,الكهرباء,Expense,occupancy_facilities,12108.87
+2018,5303,Water,المياه,Expense,occupancy_facilities,4709.01
+2018,5304,Facility Maintenance,صيانة المرافق,Expense,occupancy_facilities,6727.15
+2018,5401,Equipment Maintenance,صيانة المعدات,Expense,maintenance_repairs,21622.98
+2018,5402,Vehicle Maintenance,صيانة المركبات,Expense,maintenance_repairs,15136.09
+2018,5403,Tools Maintenance,صيانة الأدوات,Expense,maintenance_repairs,6486.9
+2018,5501,Vehicle Insurance,تأمين المركبات,Expense,insurance,6342.74
+2018,5502,Property Insurance,تأمين الممتلكات,Expense,insurance,4228.49
+2018,5601,Bank Charges,رسوم بنكية,Expense,administrative_professional,4942.4
+2018,5602,Legal & Accounting Fees,أتعاب قانونية ومحاسبية,Expense,administrative_professional,12355.99
+2018,5603,Office Supplies,قرطاسية ومطبوعات,Expense,administrative_professional,5354.26
+2018,5604,Telephone & Internet,هاتف وإنترنت,Expense,administrative_professional,6178.0
+2018,5701,Advertising & Promotion,الدعاية والإعلان,Expense,marketing_advertising,10571.24
+2018,5801,Workshop Supplies,مستلزمات الورشة,Expense,operating_supplies,21142.47
+2018,5802,Safety Equipment,معدات السلامة,Expense,operating_supplies,6342.74
+2018,5803,Fuel & Lubricants,وقود وزيوت,Expense,operating_supplies,14799.73
+2018,5804,Packaging Materials,مواد تغليف,Expense,operating_supplies,5285.62
+2018,5805,Freight & Shipping,نقل وشحن,Expense,operating_supplies,5285.62
+2018,5901,Depreciation - Equipment,إهلاك المعدات,Expense,depreciation,10811.49
+2018,5902,Depreciation - Vehicles,إهلاك المركبات,Expense,depreciation,6486.9
+2018,5903,Depreciation - Furniture,إهلاك الأثاث,Expense,depreciation,4324.6
+2018,6001,Cost of Goods Sold,تكلفة البضاعة المباعة,Expense,cogs,33635.75
+2018,6101,Fines & Penalties,غرامات وجزاءات,Expense,fines_penalties,3363.58
+2018,6201,Zakat,الزكاة,Expense,zakat,5766.13
+2018,6301,Miscellaneous Expenses,مصروفات متنوعة,Expense,other_discounts,4324.6
+2018,6302,Discounts Allowed,خصومات مسموح بها,Expense,other_discounts,2883.06
+2019,4001,Workshop Revenue,ايرادات الورشة,Revenue,,705000.0
+2019,4002,Other Revenue,ايرادات متنوعة,Revenue,,45000.0
+2019,5101,Salaries & Wages,الأجور والرواتب,Expense,employee_costs,241525.96
+2019,5102,Housing Allowance,بدل السكن,Expense,employee_costs,32935.36
+2019,5103,Vacation Allowance,بدل الإجازة,Expense,employee_costs,19761.21
+2019,5104,Employee Medical Insurance,التأمين الطبي للموظفين,Expense,employee_costs,24152.6
+2019,5105,GOSI Contributions,الاشتراكات النظامية (التأمينات الاجتماعية),Expense,employee_costs,37326.74
+2019,5106,Labor Office Fees,رسوم مكتب العمل,Expense,employee_costs,13174.14
+2019,5107,Residency (Iqama) Fees,رسوم الإقامة,Expense,employee_costs,10978.45
+2019,5108,End-of-Service Provision,مخصص نهاية الخدمة,Expense,employee_costs,19761.21
+2019,5109,Staff Travel & Transport,سفر وانتقالات الموظفين,Expense,employee_costs,9661.04
+2019,5110,Overtime & Bonuses,المكافآت والعمل الإضافي,Expense,employee_costs,7904.49
+2019,5111,Staff Meals,وجبات الموظفين,Expense,employee_costs,4391.38
+2019,5201,Municipality Fees,رسوم البلدية,Expense,government_regulatory_fees,13391.13
+2019,5202,Commercial Registration Fees,رسوم السجل التجاري,Expense,government_regulatory_fees,8927.42
+2019,5301,Workshop Rent,إيجار الورشة,Expense,occupancy_facilities,45133.06
+2019,5302,Electricity,الكهرباء,Expense,occupancy_facilities,12498.39
+2019,5303,Water,المياه,Expense,occupancy_facilities,4860.48
+2019,5304,Facility Maintenance,صيانة المرافق,Expense,occupancy_facilities,6943.55
+2019,5401,Equipment Maintenance,صيانة المعدات,Expense,maintenance_repairs,22318.55
+2019,5402,Vehicle Maintenance,صيانة المركبات,Expense,maintenance_repairs,15622.98
+2019,5403,Tools Maintenance,صيانة الأدوات,Expense,maintenance_repairs,6695.56
+2019,5501,Vehicle Insurance,تأمين المركبات,Expense,insurance,6546.77
+2019,5502,Property Insurance,تأمين الممتلكات,Expense,insurance,4364.52
+2019,5601,Bank Charges,رسوم بنكية,Expense,administrative_professional,5101.38
+2019,5602,Legal & Accounting Fees,أتعاب قانونية ومحاسبية,Expense,administrative_professional,12753.46
+2019,5603,Office Supplies,قرطاسية ومطبوعات,Expense,administrative_professional,5526.5
+2019,5604,Telephone & Internet,هاتف وإنترنت,Expense,administrative_professional,6376.73
+2019,5606,Legal & Settlement Fees,رسوم قانونية وتسويات,Expense,administrative_professional,0.0
+2019,5701,Advertising & Promotion,الدعاية والإعلان,Expense,marketing_advertising,10911.29
+2019,5801,Workshop Supplies,مستلزمات الورشة,Expense,operating_supplies,21822.58
+2019,5802,Safety Equipment,معدات السلامة,Expense,operating_supplies,6546.77
+2019,5803,Fuel & Lubricants,وقود وزيوت,Expense,operating_supplies,15275.81
+2019,5804,Packaging Materials,مواد تغليف,Expense,operating_supplies,5455.65
+2019,5805,Freight & Shipping,نقل وشحن,Expense,operating_supplies,5455.65
+2019,5901,Depreciation - Equipment,إهلاك المعدات,Expense,depreciation,11159.27
+2019,5902,Depreciation - Vehicles,إهلاك المركبات,Expense,depreciation,6695.56
+2019,5903,Depreciation - Furniture,إهلاك الأثاث,Expense,depreciation,4463.71
+2019,6001,Cost of Goods Sold,تكلفة البضاعة المباعة,Expense,cogs,34717.74
+2019,6101,Fines & Penalties,غرامات وجزاءات,Expense,fines_penalties,3471.77
+2019,6201,Zakat,الزكاة,Expense,zakat,5951.61
+2019,6301,Miscellaneous Expenses,مصروفات متنوعة,Expense,other_discounts,4463.71
+2019,6302,Discounts Allowed,خصومات مسموح بها,Expense,other_discounts,2975.81
+2020,4001,Workshop Revenue,ايرادات الورشة,Revenue,,582400.0
+2020,4002,Other Revenue,ايرادات متنوعة,Revenue,,38400.0
+2020,4003,Settlement Discount,خصم تسوية,Revenue,,19200.0
+2020,5101,Salaries & Wages,الأجور والرواتب,Expense,employee_costs,238294.3
+2020,5102,Housing Allowance,بدل السكن,Expense,employee_costs,32494.68
+2020,5103,Vacation Allowance,بدل الإجازة,Expense,employee_costs,19496.81
+2020,5104,Employee Medical Insurance,التأمين الطبي للموظفين,Expense,employee_costs,23829.43
+2020,5105,GOSI Contributions,الاشتراكات النظامية (التأمينات الاجتماعية),Expense,employee_costs,36827.3
+2020,5106,Labor Office Fees,رسوم مكتب العمل,Expense,employee_costs,12997.87
+2020,5107,Residency (Iqama) Fees,رسوم الإقامة,Expense,employee_costs,10831.56
+2020,5108,End-of-Service Provision,مخصص نهاية الخدمة,Expense,employee_costs,19496.81
+2020,5109,Staff Travel & Transport,سفر وانتقالات الموظفين,Expense,employee_costs,9531.77
+2020,5110,Overtime & Bonuses,المكافآت والعمل الإضافي,Expense,employee_costs,7798.72
+2020,5111,Staff Meals,وجبات الموظفين,Expense,employee_costs,4332.62
+2020,5201,Municipality Fees,رسوم البلدية,Expense,government_regulatory_fees,12233.29
+2020,5202,Commercial Registration Fees,رسوم السجل التجاري,Expense,government_regulatory_fees,8155.53
+2020,5301,Workshop Rent,إيجار الورشة,Expense,occupancy_facilities,41230.72
+2020,5302,Electricity,الكهرباء,Expense,occupancy_facilities,11417.74
+2020,5303,Water,المياه,Expense,occupancy_facilities,4440.23
+2020,5304,Facility Maintenance,صيانة المرافق,Expense,occupancy_facilities,6343.19
+2020,5401,Equipment Maintenance,صيانة المعدات,Expense,maintenance_repairs,20388.82
+2020,5402,Vehicle Maintenance,صيانة المركبات,Expense,maintenance_repairs,14272.17
+2020,5403,Tools Maintenance,صيانة الأدوات,Expense,maintenance_repairs,6116.65
+2020,5501,Vehicle Insurance,تأمين المركبات,Expense,insurance,5980.72
+2020,5502,Property Insurance,تأمين الممتلكات,Expense,insurance,3987.15
+2020,5601,Bank Charges,رسوم بنكية,Expense,administrative_professional,4660.3
+2020,5602,Legal & Accounting Fees,أتعاب قانونية ومحاسبية,Expense,administrative_professional,11650.75
+2020,5603,Office Supplies,قرطاسية ومطبوعات,Expense,administrative_professional,5048.66
+2020,5604,Telephone & Internet,هاتف وإنترنت,Expense,administrative_professional,5825.38
+2020,5701,Advertising & Promotion,الدعاية والإعلان,Expense,marketing_advertising,9967.87
+2020,5801,Workshop Supplies,مستلزمات الورشة,Expense,operating_supplies,19935.73
+2020,5802,Safety Equipment,معدات السلامة,Expense,operating_supplies,5980.72
+2020,5803,Fuel & Lubricants,وقود وزيوت,Expense,operating_supplies,13955.01
+2020,5804,Packaging Materials,مواد تغليف,Expense,operating_supplies,4983.93
+2020,5805,Freight & Shipping,نقل وشحن,Expense,operating_supplies,4983.93
+2020,5901,Depreciation - Equipment,إهلاك المعدات,Expense,depreciation,10194.41
+2020,5902,Depreciation - Vehicles,إهلاك المركبات,Expense,depreciation,6116.65
+2020,5903,Depreciation - Furniture,إهلاك الأثاث,Expense,depreciation,4077.76
+2020,6001,Cost of Goods Sold,تكلفة البضاعة المباعة,Expense,cogs,31715.94
+2020,6101,Fines & Penalties,غرامات وجزاءات,Expense,fines_penalties,3171.59
+2020,6201,Zakat,الزكاة,Expense,zakat,5437.02
+2020,6301,Miscellaneous Expenses,مصروفات متنوعة,Expense,other_discounts,4077.76
+2020,6302,Discounts Allowed,خصومات مسموح بها,Expense,other_discounts,2718.51
+2021,4001,Workshop Revenue,ايرادات الورشة,Revenue,,641550.0
+2021,4002,Other Revenue,ايرادات متنوعة,Revenue,,42300.0
+2021,4003,Settlement Discount,خصم تسوية,Revenue,,21150.0
+2021,5101,Salaries & Wages,الأجور والرواتب,Expense,employee_costs,223029.09
+2021,5102,Housing Allowance,بدل السكن,Expense,employee_costs,30413.06
+2021,5103,Vacation Allowance,بدل الإجازة,Expense,employee_costs,18247.83
+2021,5104,Employee Medical Insurance,التأمين الطبي للموظفين,Expense,employee_costs,22302.91
+2021,5105,GOSI Contributions,الاشتراكات النظامية (التأمينات الاجتماعية),Expense,employee_costs,34468.13
+2021,5106,Labor Office Fees,رسوم مكتب العمل,Expense,employee_costs,12165.22
+2021,5107,Residency (Iqama) Fees,رسوم الإقامة,Expense,employee_costs,10137.69
+2021,5108,End-of-Service Provision,مخصص نهاية الخدمة,Expense,employee_costs,18247.83
+2021,5109,Staff Travel & Transport,سفر وانتقالات الموظفين,Expense,employee_costs,8921.16
+2021,5110,Overtime & Bonuses,المكافآت والعمل الإضافي,Expense,employee_costs,7299.13
+2021,5111,Staff Meals,وجبات الموظفين,Expense,employee_costs,4055.07
+2021,5112,Staff Training & Development,تدريب وتطوير الموظفين,Expense,employee_costs,4866.09
+2021,5201,Municipality Fees,رسوم البلدية,Expense,government_regulatory_fees,12520.16
+2021,5202,Commercial Registration Fees,رسوم السجل التجاري,Expense,government_regulatory_fees,8346.77
+2021,5301,Workshop Rent,إيجار الورشة,Expense,occupancy_facilities,42197.58
+2021,5302,Electricity,الكهرباء,Expense,occupancy_facilities,11685.48
+2021,5303,Water,المياه,Expense,occupancy_facilities,4544.35
+2021,5304,Facility Maintenance,صيانة المرافق,Expense,occupancy_facilities,6491.94
+2021,5401,Equipment Maintenance,صيانة المعدات,Expense,maintenance_repairs,20866.94
+2021,5402,Vehicle Maintenance,صيانة المركبات,Expense,maintenance_repairs,14606.85
+2021,5403,Tools Maintenance,صيانة الأدوات,Expense,maintenance_repairs,6260.08
+2021,5501,Vehicle Insurance,تأمين المركبات,Expense,insurance,6120.97
+2021,5502,Property Insurance,تأمين الممتلكات,Expense,insurance,4080.65
+2021,5601,Bank Charges,رسوم بنكية,Expense,administrative_professional,4173.39
+2021,5602,Legal & Accounting Fees,أتعاب قانونية ومحاسبية,Expense,administrative_professional,10433.47
+2021,5603,Office Supplies,قرطاسية ومطبوعات,Expense,administrative_professional,4521.17
+2021,5604,Telephone & Internet,هاتف وإنترنت,Expense,administrative_professional,5216.73
+2021,5605,Software Subscriptions,اشتراكات برمجية,Expense,administrative_professional,3477.82
+2021,5701,Advertising & Promotion,الدعاية والإعلان,Expense,marketing_advertising,10201.61
+2021,5801,Workshop Supplies,مستلزمات الورشة,Expense,operating_supplies,20403.23
+2021,5802,Safety Equipment,معدات السلامة,Expense,operating_supplies,6120.97
+2021,5803,Fuel & Lubricants,وقود وزيوت,Expense,operating_supplies,14282.26
+2021,5804,Packaging Materials,مواد تغليف,Expense,operating_supplies,5100.81
+2021,5805,Freight & Shipping,نقل وشحن,Expense,operating_supplies,5100.81
+2021,5901,Depreciation - Equipment,إهلاك المعدات,Expense,depreciation,10433.47
+2021,5902,Depreciation - Vehicles,إهلاك المركبات,Expense,depreciation,6260.08
+2021,5903,Depreciation - Furniture,إهلاك الأثاث,Expense,depreciation,4173.39
+2021,6001,Cost of Goods Sold,تكلفة البضاعة المباعة,Expense,cogs,32459.68
+2021,6101,Fines & Penalties,غرامات وجزاءات,Expense,fines_penalties,3245.97
+2021,6201,Zakat,الزكاة,Expense,zakat,5564.52
+2021,6301,Miscellaneous Expenses,مصروفات متنوعة,Expense,other_discounts,4173.39
+2021,6302,Discounts Allowed,خصومات مسموح بها,Expense,other_discounts,2782.26
+2022,4001,Workshop Revenue,ايرادات الورشة,Revenue,,737100.0
+2022,4002,Other Revenue,ايرادات متنوعة,Revenue,,48600.0
+2022,4003,Settlement Discount,خصم تسوية,Revenue,,24300.0
+2022,5101,Salaries & Wages,الأجور والرواتب,Expense,employee_costs,245655.23
+2022,5102,Housing Allowance,بدل السكن,Expense,employee_costs,33498.44
+2022,5103,Vacation Allowance,بدل الإجازة,Expense,employee_costs,20099.06
+2022,5104,Employee Medical Insurance,التأمين الطبي للموظفين,Expense,employee_costs,24565.52
+2022,5105,GOSI Contributions,الاشتراكات النظامية (التأمينات الاجتماعية),Expense,employee_costs,37964.9
+2022,5106,Labor Office Fees,رسوم مكتب العمل,Expense,employee_costs,13399.38
+2022,5107,Residency (Iqama) Fees,رسوم الإقامة,Expense,employee_costs,11166.15
+2022,5108,End-of-Service Provision,مخصص نهاية الخدمة,Expense,employee_costs,20099.06
+2022,5109,Staff Travel & Transport,سفر وانتقالات الموظفين,Expense,employee_costs,9826.21
+2022,5110,Overtime & Bonuses,المكافآت والعمل الإضافي,Expense,employee_costs,8039.63
+2022,5111,Staff Meals,وجبات الموظفين,Expense,employee_costs,4466.46
+2022,5112,Staff Training & Development,تدريب وتطوير الموظفين,Expense,employee_costs,5359.75
+2022,5201,Municipality Fees,رسوم البلدية,Expense,government_regulatory_fees,13790.32
+2022,5202,Commercial Registration Fees,رسوم السجل التجاري,Expense,government_regulatory_fees,9193.55
+2022,5301,Workshop Rent,إيجار الورشة,Expense,occupancy_facilities,46478.49
+2022,5302,Electricity,الكهرباء,Expense,occupancy_facilities,12870.97
+2022,5303,Water,المياه,Expense,occupancy_facilities,5005.38
+2022,5304,Facility Maintenance,صيانة المرافق,Expense,occupancy_facilities,7150.54
+2022,5401,Equipment Maintenance,صيانة المعدات,Expense,maintenance_repairs,22983.87
+2022,5402,Vehicle Maintenance,صيانة المركبات,Expense,maintenance_repairs,16088.71
+2022,5403,Tools Maintenance,صيانة الأدوات,Expense,maintenance_repairs,6895.16
+2022,5501,Vehicle Insurance,تأمين المركبات,Expense,insurance,6741.94
+2022,5502,Property Insurance,تأمين الممتلكات,Expense,insurance,4494.62
+2022,5601,Bank Charges,رسوم بنكية,Expense,administrative_professional,4596.77
+2022,5602,Legal & Accounting Fees,أتعاب قانونية ومحاسبية,Expense,administrative_professional,11491.94
+2022,5603,Office Supplies,قرطاسية ومطبوعات,Expense,administrative_professional,4979.84
+2022,5604,Telephone & Internet,هاتف وإنترنت,Expense,administrative_professional,5745.97
+2022,5605,Software Subscriptions,اشتراكات برمجية,Expense,administrative_professional,3830.65
+2022,5701,Advertising & Promotion,الدعاية والإعلان,Expense,marketing_advertising,11236.56
+2022,5801,Workshop Supplies,مستلزمات الورشة,Expense,operating_supplies,22473.12
+2022,5802,Safety Equipment,معدات السلامة,Expense,operating_supplies,6741.94
+2022,5803,Fuel & Lubricants,وقود وزيوت,Expense,operating_supplies,15731.18
+2022,5804,Packaging Materials,مواد تغليف,Expense,operating_supplies,5618.28
+2022,5805,Freight & Shipping,نقل وشحن,Expense,operating_supplies,5618.28
+2022,5901,Depreciation - Equipment,إهلاك المعدات,Expense,depreciation,11491.94
+2022,5902,Depreciation - Vehicles,إهلاك المركبات,Expense,depreciation,6895.16
+2022,5903,Depreciation - Furniture,إهلاك الأثاث,Expense,depreciation,4596.77
+2022,6001,Cost of Goods Sold,تكلفة البضاعة المباعة,Expense,cogs,35752.69
+2022,6101,Fines & Penalties,غرامات وجزاءات,Expense,fines_penalties,3575.27
+2022,6201,Zakat,الزكاة,Expense,zakat,6129.03
+2022,6301,Miscellaneous Expenses,مصروفات متنوعة,Expense,other_discounts,4596.77
+2022,6302,Discounts Allowed,خصومات مسموح بها,Expense,other_discounts,3064.52
+2023,4001,Workshop Revenue,ايرادات الورشة,Revenue,,782600.0
+2023,4002,Other Revenue,ايرادات متنوعة,Revenue,,51600.0
+2023,4003,Settlement Discount,خصم تسوية,Revenue,,25800.0
+2023,5101,Salaries & Wages,الأجور والرواتب,Expense,employee_costs,256333.76
+2023,5102,Housing Allowance,بدل السكن,Expense,employee_costs,34954.6
+2023,5103,Vacation Allowance,بدل الإجازة,Expense,employee_costs,20972.76
+2023,5104,Employee Medical Insurance,التأمين الطبي للموظفين,Expense,employee_costs,25633.38
+2023,5105,GOSI Contributions,الاشتراكات النظامية (التأمينات الاجتماعية),Expense,employee_costs,39615.22
+2023,5106,Labor Office Fees,رسوم مكتب العمل,Expense,employee_costs,13981.84
+2023,5107,Residency (Iqama) Fees,رسوم الإقامة,Expense,employee_costs,11651.53
+2023,5108,End-of-Service Provision,مخصص نهاية الخدمة,Expense,employee_costs,20972.76
+2023,5109,Staff Travel & Transport,سفر وانتقالات الموظفين,Expense,employee_costs,10253.35
+2023,5110,Overtime & Bonuses,المكافآت والعمل الإضافي,Expense,employee_costs,8389.1
+2023,5111,Staff Meals,وجبات الموظفين,Expense,employee_costs,4660.61
+2023,5112,Staff Training & Development,تدريب وتطوير الموظفين,Expense,employee_costs,5592.74
+2023,5201,Municipality Fees,رسوم البلدية,Expense,government_regulatory_fees,14389.78
+2023,5202,Commercial Registration Fees,رسوم السجل التجاري,Expense,government_regulatory_fees,9593.19
+2023,5301,Workshop Rent,إيجار الورشة,Expense,occupancy_facilities,77598.23
+2023,5302,Electricity,الكهرباء,Expense,occupancy_facilities,21488.74
+2023,5303,Water,المياه,Expense,occupancy_facilities,8356.73
+2023,5304,Facility Maintenance,صيانة المرافق,Expense,occupancy_facilities,11938.19
+2023,5401,Equipment Maintenance,صيانة المعدات,Expense,maintenance_repairs,27580.42
+2023,5402,Vehicle Maintenance,صيانة المركبات,Expense,maintenance_repairs,19306.29
+2023,5403,Tools Maintenance,صيانة الأدوات,Expense,maintenance_repairs,8274.12
+2023,5501,Vehicle Insurance,تأمين المركبات,Expense,insurance,7035.0
+2023,5502,Property Insurance,تأمين الممتلكات,Expense,insurance,4690.0
+2023,5601,Bank Charges,رسوم بنكية,Expense,administrative_professional,2021.59
+2023,5602,Legal & Accounting Fees,أتعاب قانونية ومحاسبية,Expense,administrative_professional,5053.99
+2023,5603,Office Supplies,قرطاسية ومطبوعات,Expense,administrative_professional,2190.06
+2023,5604,Telephone & Internet,هاتف وإنترنت,Expense,administrative_professional,2526.99
+2023,5605,Software Subscriptions,اشتراكات برمجية,Expense,administrative_professional,1684.66
+2023,5606,Legal & Settlement Fees,رسوم قانونية وتسويات,Expense,administrative_professional,18500.0
+2023,5701,Advertising & Promotion,الدعاية والإعلان,Expense,marketing_advertising,11725.01
+2023,5801,Workshop Supplies,مستلزمات الورشة,Expense,operating_supplies,23450.02
+2023,5802,Safety Equipment,معدات السلامة,Expense,operating_supplies,7035.0
+2023,5803,Fuel & Lubricants,وقود وزيوت,Expense,operating_supplies,16415.01
+2023,5804,Packaging Materials,مواد تغليف,Expense,operating_supplies,5862.5
+2023,5805,Freight & Shipping,نقل وشحن,Expense,operating_supplies,5862.5
+2023,5901,Depreciation - Equipment,إهلاك المعدات,Expense,depreciation,11991.49
+2023,5902,Depreciation - Vehicles,إهلاك المركبات,Expense,depreciation,7194.89
+2023,5903,Depreciation - Furniture,إهلاك الأثاث,Expense,depreciation,4796.59
+2023,6001,Cost of Goods Sold,تكلفة البضاعة المباعة,Expense,cogs,37306.84
+2023,6101,Fines & Penalties,غرامات وجزاءات,Expense,fines_penalties,3730.68
+2023,6201,Zakat,الزكاة,Expense,zakat,6395.46
+2023,6301,Miscellaneous Expenses,مصروفات متنوعة,Expense,other_discounts,4796.59
+2023,6302,Discounts Allowed,خصومات مسموح بها,Expense,other_discounts,3197.73
+2024,4001,Workshop Revenue,ايرادات الورشة,Revenue,,809900.0
+2024,4002,Other Revenue,ايرادات متنوعة,Revenue,,53400.0
+2024,4003,Settlement Discount,خصم تسوية,Revenue,,26700.0
+2024,5101,Salaries & Wages,الأجور والرواتب,Expense,employee_costs,288935.86
+2024,5102,Housing Allowance,بدل السكن,Expense,employee_costs,39400.34
+2024,5103,Vacation Allowance,بدل الإجازة,Expense,employee_costs,23640.21
+2024,5104,Employee Medical Insurance,التأمين الطبي للموظفين,Expense,employee_costs,28893.59
+2024,5105,GOSI Contributions,الاشتراكات النظامية (التأمينات الاجتماعية),Expense,employee_costs,44653.72
+2024,5106,Labor Office Fees,رسوم مكتب العمل,Expense,employee_costs,15760.14
+2024,5107,Residency (Iqama) Fees,رسوم الإقامة,Expense,employee_costs,13133.45
+2024,5108,End-of-Service Provision,مخصص نهاية الخدمة,Expense,employee_costs,23640.21
+2024,5109,Staff Travel & Transport,سفر وانتقالات الموظفين,Expense,employee_costs,11557.43
+2024,5110,Overtime & Bonuses,المكافآت والعمل الإضافي,Expense,employee_costs,9456.08
+2024,5111,Staff Meals,وجبات الموظفين,Expense,employee_costs,5253.38
+2024,5112,Staff Training & Development,تدريب وتطوير الموظفين,Expense,employee_costs,6304.06
+2024,5201,Municipality Fees,رسوم البلدية,Expense,government_regulatory_fees,16219.96
+2024,5202,Commercial Registration Fees,رسوم السجل التجاري,Expense,government_regulatory_fees,10813.31
+2024,5301,Workshop Rent,إيجار الورشة,Expense,occupancy_facilities,54667.28
+2024,5302,Electricity,الكهرباء,Expense,occupancy_facilities,15138.63
+2024,5303,Water,المياه,Expense,occupancy_facilities,5887.25
+2024,5304,Facility Maintenance,صيانة المرافق,Expense,occupancy_facilities,8410.35
+2024,5401,Equipment Maintenance,صيانة المعدات,Expense,maintenance_repairs,27033.27
+2024,5402,Vehicle Maintenance,صيانة المركبات,Expense,maintenance_repairs,18923.29
+2024,5403,Tools Maintenance,صيانة الأدوات,Expense,maintenance_repairs,8109.98
+2024,5501,Vehicle Insurance,تأمين المركبات,Expense,insurance,7929.76
+2024,5502,Property Insurance,تأمين الممتلكات,Expense,insurance,5286.51
+2024,5601,Bank Charges,رسوم بنكية,Expense,administrative_professional,7028.65
+2024,5602,Legal & Accounting Fees,أتعاب قانونية ومحاسبية,Expense,administrative_professional,17571.63
+2024,5603,Office Supplies,قرطاسية ومطبوعات,Expense,administrative_professional,7614.37
+2024,5604,Telephone & Internet,هاتف وإنترنت,Expense,administrative_professional,8785.81
+2024,5605,Software Subscriptions,اشتراكات برمجية,Expense,administrative_professional,5857.21
+2024,5701,Advertising & Promotion,الدعاية والإعلان,Expense,marketing_advertising,18502.77
+2024,5801,Workshop Supplies,مستلزمات الورشة,Expense,operating_supplies,26432.53
+2024,5802,Safety Equipment,معدات السلامة,Expense,operating_supplies,7929.76
+2024,5803,Fuel & Lubricants,وقود وزيوت,Expense,operating_supplies,18502.77
+2024,5804,Packaging Materials,مواد تغليف,Expense,operating_supplies,6608.13
+2024,5805,Freight & Shipping,نقل وشحن,Expense,operating_supplies,6608.13
+2024,5901,Depreciation - Equipment,إهلاك المعدات,Expense,depreciation,13516.64
+2024,5902,Depreciation - Vehicles,إهلاك المركبات,Expense,depreciation,8109.98
+2024,5903,Depreciation - Furniture,إهلاك الأثاث,Expense,depreciation,5406.65
+2024,6001,Cost of Goods Sold,تكلفة البضاعة المباعة,Expense,cogs,42051.76
+2024,6101,Fines & Penalties,غرامات وجزاءات,Expense,fines_penalties,4205.18
+2024,6201,Zakat,الزكاة,Expense,zakat,7208.87
+2024,6301,Miscellaneous Expenses,مصروفات متنوعة,Expense,other_discounts,5406.65
+2024,6302,Discounts Allowed,خصومات مسموح بها,Expense,other_discounts,3604.44
+2025,4001,Workshop Revenue,ايرادات الورشة,Revenue,,855400.0
+2025,4002,Other Revenue,ايرادات متنوعة,Revenue,,56400.0
+2025,4003,Settlement Discount,خصم تسوية,Revenue,,28200.0
+2025,5101,Salaries & Wages,الأجور والرواتب,Expense,employee_costs,287829.4
+2025,5102,Housing Allowance,بدل السكن,Expense,employee_costs,39249.46
+2025,5103,Vacation Allowance,بدل الإجازة,Expense,employee_costs,23549.68
+2025,5104,Employee Medical Insurance,التأمين الطبي للموظفين,Expense,employee_costs,28782.94
+2025,5105,GOSI Contributions,الاشتراكات النظامية (التأمينات الاجتماعية),Expense,employee_costs,44482.73
+2025,5106,Labor Office Fees,رسوم مكتب العمل,Expense,employee_costs,15699.79
+2025,5107,Residency (Iqama) Fees,رسوم الإقامة,Expense,employee_costs,13083.15
+2025,5108,End-of-Service Provision,مخصص نهاية الخدمة,Expense,employee_costs,23549.68
+2025,5109,Staff Travel & Transport,سفر وانتقالات الموظفين,Expense,employee_costs,11513.18
+2025,5110,Overtime & Bonuses,المكافآت والعمل الإضافي,Expense,employee_costs,9419.87
+2025,5111,Staff Meals,وجبات الموظفين,Expense,employee_costs,5233.26
+2025,5112,Staff Training & Development,تدريب وتطوير الموظفين,Expense,employee_costs,6279.91
+2025,5201,Municipality Fees,رسوم البلدية,Expense,government_regulatory_fees,16657.58
+2025,5202,Commercial Registration Fees,رسوم السجل التجاري,Expense,government_regulatory_fees,11105.05
+2025,5301,Workshop Rent,إيجار الورشة,Expense,occupancy_facilities,56142.2
+2025,5302,Electricity,الكهرباء,Expense,occupancy_facilities,15547.07
+2025,5303,Water,المياه,Expense,occupancy_facilities,6046.08
+2025,5304,Facility Maintenance,صيانة المرافق,Expense,occupancy_facilities,8637.26
+2025,5401,Equipment Maintenance,صيانة المعدات,Expense,maintenance_repairs,27762.63
+2025,5402,Vehicle Maintenance,صيانة المركبات,Expense,maintenance_repairs,19433.84
+2025,5403,Tools Maintenance,صيانة الأدوات,Expense,maintenance_repairs,8328.79
+2025,5501,Vehicle Insurance,تأمين المركبات,Expense,insurance,8143.7
+2025,5502,Property Insurance,تأمين الممتلكات,Expense,insurance,5429.14
+2025,5601,Bank Charges,رسوم بنكية,Expense,administrative_professional,5552.53
+2025,5602,Legal & Accounting Fees,أتعاب قانونية ومحاسبية,Expense,administrative_professional,13881.31
+2025,5603,Office Supplies,قرطاسية ومطبوعات,Expense,administrative_professional,6015.24
+2025,5604,Telephone & Internet,هاتف وإنترنت,Expense,administrative_professional,6940.66
+2025,5605,Software Subscriptions,اشتراكات برمجية,Expense,administrative_professional,4627.1
+2025,5701,Advertising & Promotion,الدعاية والإعلان,Expense,marketing_advertising,16287.41
+2025,5801,Workshop Supplies,مستلزمات الورشة,Expense,operating_supplies,27145.68
+2025,5802,Safety Equipment,معدات السلامة,Expense,operating_supplies,8143.7
+2025,5803,Fuel & Lubricants,وقود وزيوت,Expense,operating_supplies,19001.98
+2025,5804,Packaging Materials,مواد تغليف,Expense,operating_supplies,6786.42
+2025,5805,Freight & Shipping,نقل وشحن,Expense,operating_supplies,6786.42
+2025,5901,Depreciation - Equipment,إهلاك المعدات,Expense,depreciation,13881.31
+2025,5902,Depreciation - Vehicles,إهلاك المركبات,Expense,depreciation,8328.79
+2025,5903,Depreciation - Furniture,إهلاك الأثاث,Expense,depreciation,5552.53
+2025,6001,Cost of Goods Sold,تكلفة البضاعة المباعة,Expense,cogs,43186.31
+2025,6101,Fines & Penalties,غرامات وجزاءات,Expense,fines_penalties,4318.63
+2025,6201,Zakat,الزكاة,Expense,zakat,7403.37
+2025,6301,Miscellaneous Expenses,مصروفات متنوعة,Expense,other_discounts,5552.53
+2025,6302,Discounts Allowed,خصومات مسموح بها,Expense,other_discounts,3701.68

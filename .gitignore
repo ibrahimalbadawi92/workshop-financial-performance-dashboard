@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.streamlit/secrets.toml
+*.log
+.DS_Store
+
+# Temporary QA/dev artifacts -- screenshots and one-off scratch scripts
+# generated while developing this project, never part of the shipped app.
+qa_screens/
+qa_help_screens/
+scripts/qa_*.py
+scripts/smoke_test.py
+checkpoint_output.txt
+streamlit_help*.txt

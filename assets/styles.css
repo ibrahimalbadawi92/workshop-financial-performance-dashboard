@@ -1,0 +1,373 @@
+/* Workshop Financial Performance Dashboard -- neutral Portfolio-demo theme */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cairo:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --navy: #153F5C;
+  --navy-deep: #0E2C41;
+  --navy-tint: #E8EEF2;
+  --teal: #0E8C72;
+  --teal-deep: #0B6D5A;
+  --ink-primary: #161B22;
+  --ink-secondary: #52514E;
+  --ink-muted: #898781;
+  --border: rgba(21,63,92,0.12);
+  --page-bg: #F6F8F9;
+  --status-good: #0ca30c;
+  --status-critical: #d03b3b;
+}
+
+html, body, [data-testid="stAppViewContainer"] {
+  background: var(--page-bg);
+  font-family: 'Inter', system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: var(--ink-primary);
+}
+
+[dir="rtl"] body,
+.rtl-scope {
+  font-family: 'Cairo', 'Inter', system-ui, sans-serif;
+}
+
+/* ---------- Layout shell ---------- */
+[data-testid="stAppViewContainer"] > .main .block-container {
+  padding-top: 1.25rem;
+  padding-bottom: 3rem;
+  max-width: 1440px;
+}
+
+[data-testid="stSidebar"] {
+  background: var(--navy);
+  border-right: 1px solid rgba(255,255,255,0.06);
+}
+[data-testid="stSidebar"] * {
+  color: #EAF1F7;
+}
+[data-testid="stSidebar"] .stRadio label,
+[data-testid="stSidebar"] label {
+  color: #EAF1F7 !important;
+}
+[data-testid="stSidebar"] hr {
+  border-color: rgba(255,255,255,0.14);
+}
+
+/* Select/multiselect input boxes render on their own white surface even
+   inside the navy sidebar -- the broad light-text rule above would make
+   their text invisible (white-on-white). Force dark, readable text back
+   inside those specific widget surfaces. */
+[data-testid="stSidebar"] [data-testid="stSelectbox"] input,
+[data-testid="stSidebar"] [data-testid="stMultiSelect"] input {
+  color: #161B22 !important;
+}
+[data-testid="stSidebar"] [data-baseweb="tag"] * {
+  color: #FFFFFF !important;
+}
+
+/* Sidebar nav radio -> looks like a vertical nav list */
+[data-testid="stSidebar"] div[role="radiogroup"] label {
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  margin-bottom: 2px;
+  transition: background 0.12s ease;
+}
+[data-testid="stSidebar"] div[role="radiogroup"] label:hover {
+  background: rgba(255,255,255,0.08);
+}
+[data-testid="stSidebar"] div[role="radiogroup"] label[data-checked="true"],
+[data-testid="stSidebar"] div[role="radiogroup"] input:checked + div {
+  color: #6FD7BE !important;
+}
+
+/* ---------- Header ---------- */
+.exec-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-bottom: 0.9rem;
+  margin-bottom: 1.1rem;
+  border-bottom: 1px solid var(--border);
+}
+.exec-header .titles h1 {
+  font-size: 1.55rem;
+  font-weight: 800;
+  color: var(--navy);
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+.exec-header .titles p {
+  margin: 2px 0 0 0;
+  color: var(--ink-secondary);
+  font-size: 0.92rem;
+}
+.period-badge {
+  display: inline-block;
+  background: var(--navy-tint);
+  color: var(--navy);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 5px 14px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* ---------- KPI cards ---------- */
+/* Every kpi_card() renders inside st.container(key=f"kpip_..." /
+   f"kpis_..."), which Streamlit tags with a matching "st-key-<prefix>_<id>"
+   class -- one substring rule per prefix styles every card identically,
+   around a real Streamlit container so a native st.popover can sit inside
+   the label row. */
+[class*="st-key-kpip_"],
+[class*="st-key-kpis_"] {
+  background: #FFFFFF;
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--teal);
+  border-radius: 10px;
+  padding: 14px 16px 12px 16px;
+  min-height: 118px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 1px 2px rgba(21,63,92,0.04);
+  gap: 2px;
+}
+/* Streamlit's own element wrappers add vertical margin between stacked
+   markdown blocks inside a container -- tighten it so label/value/delta
+   read as one compact card instead of spreading out. */
+[class*="st-key-kpip_"] [data-testid="stElementContainer"],
+[class*="st-key-kpis_"] [data-testid="stElementContainer"] {
+  margin: 0 !important;
+}
+[class*="st-key-kpip_"] [data-testid="stVerticalBlock"],
+[class*="st-key-kpis_"] [data-testid="stVerticalBlock"] {
+  gap: 4px !important;
+}
+[class*="st-key-kpis_"] { border-top-color: var(--navy); }
+.kpi-label {
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: var(--ink-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  line-height: 1.3;
+}
+.kpi-sub-spacer { height: 1em; }
+.kpi-value {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--navy);
+  line-height: 1.15;
+  font-variant-numeric: tabular-nums;
+}
+.kpi-value.negative { color: var(--status-critical); }
+.kpi-sub {
+  font-size: 0.78rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.kpi-sub.good { color: var(--status-good); }
+.kpi-sub.critical { color: var(--status-critical); }
+.kpi-sub.neutral { color: var(--ink-muted); }
+
+.info-dot {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px; height: 15px;
+  border-radius: 50%;
+  background: var(--navy-tint);
+  color: var(--navy);
+  font-size: 0.68rem;
+  font-weight: 700;
+  cursor: help;
+}
+
+/* ---------- Info popover system (click-to-reveal help) ---------- */
+[data-testid="stPopover"] > div > button {
+  width: 22px !important;
+  height: 22px !important;
+  min-width: 22px !important;
+  min-height: 22px !important;
+  padding: 0 !important;
+  border-radius: 50% !important;
+  background: var(--navy-tint) !important;
+  border: 1px solid var(--border) !important;
+  color: var(--navy) !important;
+  font-size: 0.72rem !important;
+  font-weight: 700 !important;
+  line-height: 1 !important;
+  box-shadow: none !important;
+}
+[data-testid="stPopover"] > div > button:hover {
+  background: var(--navy) !important;
+  color: #FFFFFF !important;
+  border-color: var(--navy) !important;
+}
+/* Hide the default dropdown chevron Streamlit adds to popover triggers --
+   the icon alone is enough affordance. It renders as a Material-icon-font
+   <span>, not an <svg>, so target stIconMaterial specifically (plus svg as
+   a fallback for any Streamlit version that renders it as one). */
+[data-testid="stPopover"] > div > button svg,
+[data-testid="stPopover"] > div > button [data-testid="stIconMaterial"] {
+  display: none !important;
+}
+[data-testid="stPopover"] > div > button [aria-hidden="true"]:has([data-testid="stIconMaterial"]) {
+  display: none !important;
+}
+[data-testid="stPopover"] {
+  width: fit-content !important;
+}
+
+/* The panel itself */
+[data-testid="stPopoverBody"] {
+  min-width: 300px;
+  max-width: 420px;
+}
+[data-testid="stPopoverBody"] h1,
+[data-testid="stPopoverBody"] h2,
+[data-testid="stPopoverBody"] h3,
+[data-testid="stPopoverBody"] strong {
+  color: var(--navy);
+}
+[data-testid="stPopoverBody"] p {
+  font-size: 0.86rem;
+  line-height: 1.6;
+  color: var(--ink-primary);
+  margin-bottom: 0.5rem;
+}
+[data-testid="stPopoverBody"][dir="rtl"] {
+  text-align: right;
+}
+
+/* A title row (chart/table heading + its info icon): every
+   title_with_info() call wraps its row in st.container(key=f"titleinfo_..."),
+   which Streamlit renders with a "st-key-titleinfo_<id>" class -- one CSS
+   rule (substring match) styles all of them identically. */
+[class*="st-key-titleinfo_"] {
+  border-bottom: 2px solid var(--navy-tint);
+  padding-bottom: 6px;
+  margin: 1.6rem 0 0.5rem 0;
+}
+[class*="st-key-titleinfo_"] .section-title {
+  margin: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+/* ---------- Section headers ---------- */
+.section-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin: 1.6rem 0 0.5rem 0;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--navy-tint);
+}
+
+/* ---------- Notes / warnings ---------- */
+.note-box {
+  background: #FFF8E6;
+  border: 1px solid #F0D998;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 0.85rem;
+  color: #6B5217;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  margin: 0.5rem 0 1rem 0;
+}
+.note-box .icon { font-size: 1rem; line-height: 1.3; }
+
+.method-note {
+  background: var(--navy-tint);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 0.82rem;
+  color: var(--ink-secondary);
+  margin: 0.5rem 0 1rem 0;
+}
+
+.not-present-tag {
+  color: var(--ink-muted);
+  font-style: italic;
+  font-size: 0.85em;
+}
+
+/* ---------- Executive summary card ---------- */
+.exec-summary {
+  background: linear-gradient(180deg, #FFFFFF 0%, #FBFCFD 100%);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--navy);
+  border-radius: 10px;
+  padding: 14px 18px;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--ink-primary);
+  margin-bottom: 1rem;
+}
+.exec-summary[dir="rtl"] { border-left: none; border-right: 4px solid var(--navy); }
+
+/* ---------- Tables ---------- */
+[data-testid="stDataFrame"] {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* ---------- Tabs ---------- */
+button[data-baseweb="tab"] {
+  font-weight: 600;
+}
+button[data-baseweb="tab"][aria-selected="true"] {
+  color: var(--navy) !important;
+}
+[data-testid="stTabs"] [data-baseweb="tab-highlight"] {
+  background-color: var(--teal) !important;
+}
+
+/* ---------- Misc ---------- */
+hr { border-color: var(--border); }
+.small-caption { color: var(--ink-muted); font-size: 0.78rem; }
+
+[dir="rtl"] [data-testid="stAppViewContainer"] { direction: rtl; }
+[dir="rtl"] .exec-header { flex-direction: row-reverse; }
+
+/* Bidi safety: a plain numeric/English string (a caption like "2022 -> 2023",
+   a metric delta) inherits the ancestor's forced RTL direction and can get
+   its neutrals (dashes, arrows) visually reordered even with no Arabic in
+   it. unicode-bidi:plaintext makes each element resolve its OWN base
+   direction from its own first strong character instead of inheriting --
+   Arabic text stays RTL, pure numeric/Latin text resolves LTR. Mixed
+   Arabic+number strings built by the app are additionally wrapped in
+   Unicode isolate marks at the source (see src/formatting.py). */
+[dir="rtl"] [data-testid="stAppViewContainer"] * {
+  unicode-bidi: plaintext;
+}
+
+/* Arabic readability: the same banners/paragraphs as English, just given a
+   bit more breathing room for Arabic script -- width, content, and English
+   metrics are all untouched. These match the element's OWN dir attribute
+   (note_box/method_note/executive_summary_box render dir="rtl"/"ltr"
+   directly on themselves when given a lang) rather than requiring an RTL
+   ancestor, which is what actually makes them fire. */
+.exec-summary[dir="rtl"] {
+  line-height: 1.95;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.note-box[dir="rtl"],
+.method-note[dir="rtl"] {
+  line-height: 1.9;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+.note-box[dir="rtl"] .icon {
+  line-height: 1.9;
+}
